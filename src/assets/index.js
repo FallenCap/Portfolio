@@ -34,7 +34,12 @@ import ahaSolar from "./company/AhasolarTechnologiesLtd.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-
+import sharenest from "./sharenest.png";
+import quizfy from "./quizfy.png";
+import link from "./link.png";
+import api from "./api.jpg";
+import pmt from "./PMT.png";
+import pmsg from "./pmsuryaghar.png";
 export {
   logo,
   backend,
@@ -68,5 +73,11 @@ export {
   tripguide,
   photoshop,
   illustrator,
-  davinci
+  davinci,
+  sharenest,
+  link,
+  quizfy,
+  api,
+  pmt,
+  pmsg
 };

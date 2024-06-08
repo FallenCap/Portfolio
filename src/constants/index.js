@@ -12,12 +12,14 @@ import {
   git,
   mysql,
   ahaSolar,
-  carrent,
-  jobit,
-  tripguide,
   photoshop,
   illustrator,
-  davinci
+  davinci,
+  sharenest,
+  quizfy,
+  api,
+  pmt,
+  pmsg
 } from "../assets";
 
 export const navLinks = [
@@ -32,7 +34,7 @@ export const navLinks = [
   {
     id: "contact",
     title: "Contact",
-  },
+  }
 ];
 
 const services = [
@@ -144,18 +146,18 @@ const testimonials = [
   },
 ];
 
-const projects = [
+const personalProjects = [
   {
-    name: "Car Rent",
+    name: "ShareNest",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based social media platform where we can post images, like them, can comment on that post and also save posts.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "sanity",
         color: "green-text-gradient",
       },
       {
@@ -163,51 +165,98 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: sharenest,
+    url: "https://sharenest.netlify.app/"
   },
   {
-    name: "Job IT",
+    name: "Quizfy",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Quizfy is an innovative web application designed specifically for interview preparation for aspiring engineers.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "tailwind",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "appwrite",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: quizfy,
+    source_code_link: "https://github.com/FallenCap/Quiz_APP",
+    url: "https://quiz-app-jzgq.vercel.app/"
   },
   {
-    name: "Trip Guide",
+    name: "Yaadein",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Yaadein is a REST API. This API is all about old Hindi songs and their details.Anybody can use this API.",
     tags: [
       {
-        name: "nextjs",
+        name: "express",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "restapi",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: api,
+    source_code_link: "https://github.com/FallenCap/Yaadein-Api",
+    url: " https://yaadein.onrender.com/api/v1/songs"
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const professionalProjects = [
+    {
+      name: "PMT-REVAMP",
+      description:
+        "Web-based All-in-one solution for Solar EPC Organizations. Which helps them to Simplify their work-functions by digitalizing them.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "node",
+          color: "green-text-gradient",
+        },
+        {
+          name: "mysql",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: pmt,
+      url: "#"
+    },
+    {
+      name: "PM-Suryaghar",
+      description:
+        "Worlds Biggest Solar Roof-top project Initiated by Indian Government For Green & Renewable energy for all households in India.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "node",
+          color: "green-text-gradient",
+        },
+        {
+          name: "mysql",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: pmsg,
+      url: "https://www.pmsuryaghar.gov.in"
+    }
+  ];
+
+export { services, technologies, experiences, testimonials, personalProjects, professionalProjects };
